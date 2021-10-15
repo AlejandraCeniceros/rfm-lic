@@ -16,6 +16,8 @@
 		3D3689392718EEFD0077B3CA /* RFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3689382718EEFD0077B3CA /* RFMTests.swift */; };
 		3D3689442718EEFD0077B3CA /* RFMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3689432718EEFD0077B3CA /* RFMUITests.swift */; };
 		3D3689542718F6700077B3CA /* PacienteDatosGenerales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3689532718F6700077B3CA /* PacienteDatosGenerales.swift */; };
+		3D3792FA271A320E0031030C /* CeldaPacientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3792F9271A320E0031030C /* CeldaPacientesController.swift */; };
+		3D3792FC271A34940031030C /* DetallesPacienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3792FB271A34940031030C /* DetallesPacienteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3D3689432718EEFD0077B3CA /* RFMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFMUITests.swift; sourceTree = "<group>"; };
 		3D3689452718EEFD0077B3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3689532718F6700077B3CA /* PacienteDatosGenerales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacienteDatosGenerales.swift; sourceTree = "<group>"; };
+		3D3792F9271A320E0031030C /* CeldaPacientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPacientesController.swift; sourceTree = "<group>"; };
+		3D3792FB271A34940031030C /* DetallesPacienteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesPacienteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				3D36892C2718EEFD0077B3CA /* LaunchScreen.storyboard */,
 				3D36892F2718EEFD0077B3CA /* Info.plist */,
 				3D3689532718F6700077B3CA /* PacienteDatosGenerales.swift */,
+				3D3792F9271A320E0031030C /* CeldaPacientesController.swift */,
+				3D3792FB271A34940031030C /* DetallesPacienteController.swift */,
 			);
 			path = RFM;
 			sourceTree = "<group>";
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3792FC271A34940031030C /* DetallesPacienteController.swift in Sources */,
 				3D3689262718EEF50077B3CA /* ListaPacienteController.swift in Sources */,
 				3D3689542718F6700077B3CA /* PacienteDatosGenerales.swift in Sources */,
 				3D3689222718EEF50077B3CA /* AppDelegate.swift in Sources */,
 				3D3689242718EEF50077B3CA /* SceneDelegate.swift in Sources */,
+				3D3792FA271A320E0031030C /* CeldaPacientesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
